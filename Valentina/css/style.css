@@ -1,0 +1,840 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.clr{
+    clear: both;
+}
+
+/* ====================================================================================================
+                                        header part start
+==================================================================================================== */
+.eneato{
+    width: 100%;
+    height: 57px;
+    background-color:#262626 ;
+    clr
+}
+
+/* ====================================================================================================
+                                        header part end
+==================================================================================================== */
+
+/* ====================================================================================================
+                                        nav part strat
+==================================================================================================== */
+
+nav{
+    padding: 15px 0;
+    background-color:#fbdfe6;
+    
+}
+
+nav .logo{
+    width: 10%;
+    float: left;
+}
+
+nav .nav-item{
+    width: 70%;
+    float: left;
+}
+
+nav .nav-item ul{
+    text-align: center;
+}
+
+nav .nav-item ul li{
+    display: inline-block;
+    margin: 0 20px;
+    padding-top: 10px;
+}
+
+nav .nav-item ul li a{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    transition: .4s;
+}
+
+nav .nav-item ul li:hover a{
+    color: #d50a51;
+}
+
+nav .button{
+    width: 20%;
+    float: left;
+}
+
+nav .button a{
+    padding: 8px 20px;
+    font-size: 20px;
+    border: 1px solid #d50a51;
+    display: inline-block;
+    color: #d50a51;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .4s;
+}
+
+nav .button a:hover{
+    background-color:#d50a51;
+    color: #fff;
+}
+
+/* ====================================================================================================
+                                        nav part end
+==================================================================================================== */
+
+
+/* ====================================================================================================
+                                        banner part start
+==================================================================================================== */
+
+#banner-part{
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .img{
+    width: 50%;
+    float: left;
+}
+
+#banner-part .text{
+    width: 50%;
+    float: left;
+    padding-top:220px ;
+    text-align: center;
+}
+  
+
+#banner-part .text h3{
+    font-family:'Josefin Sans', sans-serif ;
+    color: #8a5e3b;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: -25px;
+}
+
+#banner-part .text h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    color: #d50a51;
+    padding-bottom:15px ;
+}
+
+
+#banner-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 25px;
+    padding-bottom: 45px;
+}
+
+#banner-part .text a{
+    border: 1px solid #d50a51;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+}
+
+#banner-part .text a:hover {
+    background: #d50a51;
+    color: #fff;
+}
+
+
+
+
+/* ====================================================================================================
+                                        banner part end
+==================================================================================================== */
+
+
+/* ====================================================================================================
+                                        history part start
+==================================================================================================== */
+
+#history-part {
+    padding-top: 100px
+}
+
+#history-part .img{
+    width: 50%;
+    float: left;
+}
+
+#history-part .text{
+    width: 50%;
+    float: left;
+}
+
+#history-part .text .history-heading{
+    background: url(../images/love-bg.png)no-repeat;
+    padding-top: 20px;
+    padding-left: 50px;
+    position: relative;
+    
+}
+
+
+#history-part .text .history-heading h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#history-part .text .history-heading h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#history-part .text .history-details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+}
+#history-part .text .history-details p{
+    margin-bottom: 5px;
+}
+
+
+/* ====================================================================================================
+                                        history part end
+==================================================================================================== */
+
+
+/* ====================================================================================================
+                                        gift & Proposal part start
+==================================================================================================== */
+#Proposal-part{
+    background: #fff6da;
+    margin-top: 95px;
+    position: relative;
+}
+
+#Proposal-part .text{
+    width: 50%;
+    float: left;
+}
+
+#Proposal-part .img{
+    width: 50%;
+    float: left;
+}
+
+#Proposal-part .text .proposal-heading{
+    background: url(../images/love-bg2.png)no-repeat;
+    padding-top: 20px;
+    padding-left: 50px;
+    position: relative;   
+}
+
+#Proposal-part .text .proposal-heading h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#Proposal-part .text .proposal-heading h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#Proposal-part .text .history-details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+}
+
+#Proposal-part .text .history-details p{
+ margin-bottom:20px ;
+}
+
+
+#Proposal-part .text a{
+    border: 1px solid #d50a51;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: capitalize;
+
+}#Proposal-part .text a{
+    margin-bottom: 70px;
+}
+
+#Proposal-part .text a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+
+#Proposal-part .img img{
+    margin-top: -125px;
+    height: 650px;
+    width: 520px;
+}
+
+
+
+/* ====================================================================================================
+                                        gift & Proposal part end
+==================================================================================================== */
+
+/* ====================================================================================================
+                                        ticket part start
+==================================================================================================== */
+#ticket-part{
+    margin-top: 100px;
+}
+
+#ticket-part .img{
+    width: 50%;
+    float: left;
+}
+
+#ticket-part .text{
+    width: 50%;
+    float: left;
+}
+
+#ticket-part .text .ticket-heading{
+    padding-top: 50px;
+    padding-right: 50px;
+    position: relative;
+    text-align: right;
+    background: url(../images/love-bg3.png)right;
+    background-repeat: no-repeat;
+}
+
+#ticket-part .text .ticket-heading h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#ticket-part .text .ticket-heading h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#ticket-part .text .ticket-details{
+    text-align: right!important;
+}
+
+
+#ticket-part .text .ticket-details p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+}
+
+#ticket-part .text .ticket-details p{
+    margin-bottom: 10px;
+}
+
+#ticket-part .text .button{
+    margin-right: 0;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+#ticket-part .text .button a{
+    border: 1px solid #d50a51;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    text-decoration: none;
+    transition: all linear .3s;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+#ticket-part .text .button a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+
+/* ====================================================================================================
+                                        ticket part end
+==================================================================================================== */
+
+/* ====================================================================================================
+                                       offers & Services part start
+==================================================================================================== */
+
+#offers{
+    margin-top: 100px;
+    background: #fef7fa;
+    padding-top: 55px;
+}
+
+#offers .offers-services{
+    width: 27%;
+    float: left;
+    margin-right: 20px;
+}
+
+#offers .services{
+    width: 69%;
+    float: left;
+}
+
+#offers .offers-services .heading{
+    background: url(../images/love-bg4.png)no-repeat;
+    padding-top: 20px;
+    padding-left: 50px;
+    position: relative; 
+}
+
+#offers .heading h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+#offers .heading h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#offers .offers-services p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+}
+
+#offers .offers-services p{
+    margin-bottom: 10px;
+}
+
+#offers .services .service-main{
+    margin-bottom: 30px;
+}
+
+#offers .services .service-item{
+    padding: 0px 80px;
+    border-right: 3px solid transparent;
+    transition: all linear .3s;
+}
+
+#offers .services span{
+    vertical-align: -20px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-left: 20px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+
+#offers .services .service-name{
+    box-sizing: inherit;
+}
+
+#offers .services .service-details{
+    padding-bottom: 25px;
+}
+
+#offers .services .service-details p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+#offers .services .services-mano1{
+    width: 50%;
+    float: left;
+}
+
+#offers .services .services-mano2{
+    width: 50%;
+    float: left;
+}
+
+
+
+/* ====================================================================================================
+                                       offers & Services part end
+==================================================================================================== */
+
+
+/* ====================================================================================================
+                                      gallery-part start
+==================================================================================================== */
+#gallery{
+    margin-top: 100px;
+}
+#gallery .img{
+    width: 61%;
+    float: left;
+}
+#gallery .img img{
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+#gallery .text{
+    width: 35%;
+    float: left;
+}
+#gallery .text .gallery-heading{
+    padding-top:;
+    padding-right: 50px;
+    position: relative;
+    text-align: right;
+    background: url(../images/love-bg3.png)right;
+    background-repeat: no-repeat;
+}
+
+#gallery .text .gallery-heading h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#gallery .text .gallery-heading h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+#gallery .text .gallery-details{
+    margin-right: 0;
+    margin-left: 20px;
+    padding-top: 20px;
+    text-align: right!important;
+   
+}
+
+#gallery .text .gallery-details p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+}
+
+#gallery .text .gallery-details p{
+    margin-bottom: 10px;
+
+}
+#gallery .text .button{
+    margin-top: 25px;
+}
+#gallery .text .button a{
+    border: 1px solid #d50a51;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    text-decoration: none;
+    transition: all linear .3s;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+#gallery .text .button a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/* ====================================================================================================
+                                      gallery-part end
+==================================================================================================== */
+
+/* ====================================================================================================
+                                      counter-part start
+==================================================================================================== */
+#counter{
+    background: url(../images/counter-bg.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 40px;
+}
+
+#counter .days{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+#counter .days img{
+    max-width: 100%;
+    height: auto;
+}
+
+#counter h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #d50a51;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+#counter h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    color: #444;
+}
+
+
+
+/* ====================================================================================================
+                                      counter-part end
+==================================================================================================== */
+
+
+/* ====================================================================================================
+                                      prorosal-part start
+==================================================================================================== */
+#prorosal{
+    margin-top: 100px;
+}
+
+#prorosal .item{
+    width: 40%;
+    float: left;
+    padding: 50pxn;
+    background: #fffae2;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+#prorosal .item .p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+}
+
+#prorosal .item .p{
+    margin-bottom: 25px;
+}
+
+
+#prorosal .item img{
+    width: 20%;
+    float: left;
+}
+
+#prorosal .item img{
+    margin-top: 25px;
+}
+
+#prorosal .item .client-info{
+    width: 65%;
+    float: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#prorosal .item .client-info h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #222;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+#prorosal .item .client-info h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+
+/* ====================================================================================================
+                                      prorosal-part end
+==================================================================================================== */
+
+
+/* ====================================================================================================
+                                      footer-part start
+==================================================================================================== */
+#footer{
+    
+    background:url(../images/footer-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#footer .logo{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 50px;
+}
+
+#footer .content{
+    width: 33%;
+    float: left;
+    margin-top: 50px;
+
+}
+
+#footer .content .address .icon{
+    width: 20%;
+    float: left;
+}
+#footer .content .address .icon{
+    width: 50px;
+    height: 50px;
+    background: #d50a51;
+    border-radius: 50%;
+    text-align: center; 
+    line-height: 50px;
+    color: #fff; 
+    font-size: 24px;  
+}
+
+#footer .content .address .text{
+    width: 55%;
+    float: left;
+    margin-left: 20px;
+    
+}
+
+#footer .content .address .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #444;
+    text-decoration: none;
+    margin-left: 20px;
+    line-height: 26px;
+}
+#footer .follow{
+    text-align: center;
+    padding-top: 60px;
+}
+
+#footer .follow h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #d50a51;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    
+}
+#footer .follow i{
+    margin-bottom: 30px;
+}
+#footer .follow i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #d50a51;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all linear .3s;
+}
+#footer .follow i:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/* ====================================================================================================
+                                      footer-part end
+==================================================================================================== */
+
+/* ====================================================================================================
+                                      footer-bottom part start
+==================================================================================================== */
+#footer-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fffae2;
+    text-align: center;
+}
+
+#footer-bottom p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+
+#footer-bottom a{
+    text-decoration: none;
+    color: #d50a51;
+}
+
+
+/* ====================================================================================================
+                                      footer-bottom part end
+==================================================================================================== */
